@@ -1,0 +1,10 @@
+package hei.exam;
+
+public enum TypeTravail {
+    ENSEIGNEMENT,
+    ADMINISTRATION,
+    COMMUNICATION,
+    RD,
+    ABS_PAYÉE,
+    ABS_NON_PAYÉE
+}

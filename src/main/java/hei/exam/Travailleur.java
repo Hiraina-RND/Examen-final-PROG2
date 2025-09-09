@@ -1,6 +1,5 @@
 package hei.exam;
 
-
 import lombok.Getter;
 import lombok.ToString;
 import lombok.EqualsAndHashCode;
@@ -13,11 +12,10 @@ import lombok.AllArgsConstructor;
 @EqualsAndHashCode
 @AllArgsConstructor
 
-public class Main {
-    public static String sayHello() {
-        return "Hello World!";
-    }
-    public static void main(String[] args) {
-        System.out.println(Main.sayHello());
-    }
+public class Travailleur {
+    private final int id;
+    private final String nom;
+    private final String prenom;
+    private final String email;
+    private final String num;
 }
