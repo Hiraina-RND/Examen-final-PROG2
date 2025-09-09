@@ -21,7 +21,7 @@ public class Promotion {
     private float TJM;
 
 
-    public Promotion(String nom, Date date, String raison, double salaireMensuel) {
+    public Promotion(String nom, LocalDate date, String raison, double salaireMensuel) {
         this.nom = nom;
         this.date = date;
         this.raison = raison;
@@ -29,7 +29,7 @@ public class Promotion {
     }
 
 
-    public Promotion(String nom, Date date, String raison, float TJM) {
+    public Promotion(String nom, LocalDate date, String raison, float TJM) {
         this.nom = nom;
         this.date = date;
         this.raison = raison;
